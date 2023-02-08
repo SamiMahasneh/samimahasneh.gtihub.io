@@ -1,0 +1,91 @@
+:root {
+    --color-Dark:#222831;
+    --color-lighter:#393E46;
+    --color-accent:#ac0b0b;
+    --color-lightest:#EEEEEE;
+    
+}
+
+@font-face {
+    font-family:"roboto" ;
+    src: url(/robotofonts/AnyConv.com__Roboto-Bold.woff);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family:"roboto" ;
+    src: url(/robotofonts/AnyConv.com__Roboto-Regular.woff);
+    font-weight: 400; 
+}
+
+@font-face {
+    font-family:"roboto" ;
+    src: url(/robotofonts/AnyConv.com__Roboto-Medium.woff);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family:"roboto" ;
+    src: url(/robotofonts/AnyConv.com__Roboto-BoldItalic.woff);
+    font-weight: 700;
+}
+
+
+*{
+    font-family:'roboto',;
+    font-weight: 700; ;
+}
+
+body {
+    background-color:var(--color-Dark);
+    margin: 0;
+    padding: 0;
+    color:var(--color-lightest);
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+
+header{
+    width: 100%;
+    background-color:var(--color-accent);
+    padding-block: 20px;
+    color: #fff;
+    text-align: center;
+    margin-inline: auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+nav a {
+    margin-inline:60px ;
+    font-size:24px;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: unset;
+    padding: 8px;
+    color:inherit;
+    border-radius: 8px;
+}
+
+.textbox {
+    width: 940px;
+    margin: auto;
+    columns: 2;
+    border: 4px solid var(--color-accent);
+    font-size: 30px;
+    padding: 20px;
+    background-color: var(--color-lighter);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+.textbox p {
+    margin-block: 0;
+}
+
+.textbox h1{
+
+    margin-block: 10px;   
+}
